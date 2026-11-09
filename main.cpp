@@ -97,7 +97,7 @@ int main()
     int n;
     cout<<"enter number of students: ";
     cin>>n;
-    if(n<1||n>100)
+    while(n<1||n>100)
     {
         cout<<"invalid! enter again: ";
         cin>>n;
