@@ -76,7 +76,7 @@ int countPassed(int marks[], int n)
 int countFailed(int marks[], int n)
 {
     int failed;
-    failed = n-countPassed(marks,3);
+    failed = n-countPassed(marks,n);
     return failed;
 }
 
